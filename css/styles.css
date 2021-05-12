@@ -1,0 +1,163 @@
+:root{
+    --first-color: #ff4444;
+    --second-color: #ff2600;
+}
+
+/* General Styles */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 2rem 10rem;
+}
+
+.colored-section{
+    color: white;
+    background-color: var(--first-color);
+}
+
+.big-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.med-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* Navbar Section*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar{
+    padding: 0 0 4rem 0;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-right{
+    text-align: right;
+}
+
+/* Title Section */
+#title{
+    text-align: left;
+}
+
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.download-button{
+    margin: 1rem 1rem 2rem 0;
+}
+
+/* Features section */
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-div{
+    padding: 3rem 2.5rem 1rem 2.5rem;
+}
+
+.feature-text{
+    color: gray;
+}
+
+.feature-icon{
+    font-size: 4rem;
+    color: var(--first-color);
+    padding-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: var(--second-color);
+}
+
+/* Testimonial Section */
+.testimonial-text{
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+/* Press Section */
+.press-logo{
+    width: 20%;
+    padding: 1rem;
+}
+
+.carousel-item{
+    padding: 2rem 10rem;
+}
+
+/* Pricing Section */
+.card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 7px gray;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* Footer Section */
+.footer-icons{
+    padding: 3rem 0 1rem;
+}
+
+.footer-icon{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.footer-icon:hover{
+    color: var(--second-color);
+}
+
+
+/* Media Queries */
+@media (max-width: 992px){
+
+    .container-fluid{
+        padding: 2rem 7.5rem;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
