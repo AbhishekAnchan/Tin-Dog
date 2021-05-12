@@ -201,6 +201,10 @@ body{
 		width: 20%;
 	}
 
+	.card{
+		border-radius: 1rem;
+	}
+
 	.card-title{
 		font-size: 4rem;
 	}
