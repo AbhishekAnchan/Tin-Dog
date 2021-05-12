@@ -152,6 +152,26 @@ body{
         padding: 2rem 7.5rem;
     }
 
+	p{
+		font-size: 2rem;
+	}
+
+	.big-heading{
+		font-size: 4rem;
+	}
+
+	.med-heading{
+		font-size: 3rem;
+	}
+
+	.navbar-brand{
+		font-size: 3rem;
+	}
+
+	.nav-link{
+		font-size: 2rem;
+	}
+
     #title{
         text-align: center;
     }
@@ -160,4 +180,38 @@ body{
         position: static;
         transform: rotate(0);
     }
+
+	.download-button{
+		width: 15rem;
+		height: 5rem;
+		border-radius: 5%;
+		font-size: 2rem;
+	}
+
+	.feature-icon{
+		font-size: 10rem;
+	}
+
+	.testimonial-text{
+		font-size: 3rem;
+	}
+
+	.testimonial-img{
+		width: 20%;
+	}
+
+	.card-title{
+		font-size: 4rem;
+	}
+
+	.sign-up-button{
+		font-size: 2rem;
+		width: 15rem;
+		height: 5rem;
+		border-radius: 5%;
+	}
+
+	.footer-icon{
+		font-size: 3rem;
+	}
 }
